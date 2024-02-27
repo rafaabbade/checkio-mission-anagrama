@@ -1,18 +1,18 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Uma palavra ou frase é considerada um anagrama de outra se as letras de uma podem ser rearranjadas para formar a outra, desconsiderando espaços, vírgulas e pontos. Dadas duas frases, seu programa deve verificar se elas são anagramas uma da outra.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Uma lista onde o primeiro elemento é um inteiro N representando o número total de caracteres (incluindo letras, espaços, vírgulas e pontos) nas frases. Os elementos subsequentes são duas strings, representando as frases A e B que devem ser comparadas.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma string contendo um único caractere: 'S' se as frases forem anagramas, ou 'N' caso contrário.
 </p>
 
 
@@ -28,7 +28,10 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    anagrama(11, "porta coral", "claro trapo") >> 'S'
+anagrama(1, "a", "b") >> 'N'
+anagrama(12, "aca aaa bb b", "ba.ba,aab ac") >> 'S'
+anagrama(2, " a", "aa") >> 'N'
 </pre>
 {% endif %}
 </div>

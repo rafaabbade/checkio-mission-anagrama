@@ -1,1 +1,16 @@
-{{CODIGO INICIAL}}
+def anagrama(N, fraseA, fraseB):
+    # Seu código aqui
+    return None
+
+
+print("Example:")
+print(anagrama(11, "porta coral", "claro trapo"))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+
+assert anagrama(11, "porta coral", "claro trapo") == 'S'
+assert anagrama(1, "a", "b") == 'N'
+assert anagrama(12, "aca aaa bb b", "ba.ba,aab ac") == 'S'
+assert anagrama(2, " a", "aa") == 'N'
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
